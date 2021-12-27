@@ -1,18 +1,33 @@
 * {
     margin: 0;
 }
-body {
-    background-color: #f1f1f1;
+
+h2 {
+
+}
+
+.card-container {
+    background-color: skyblue;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 4px 4px 0px 0px;
 }
 
 .hero-image {
-    height: 200px;
-    background-image: url('https://assets.codepen.io/6060109/girl.jpg');
-    background-size: 100%;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+    background-color: slateblue;
+    height: 170px;
+    border-radius: 4px 4px 0px 0px;
 }
+
 .name-title {
     padding: 20px 10px;
-    color: white;
+    color: snow;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 12px;
 }
